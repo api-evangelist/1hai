@@ -1,7 +1,14 @@
 aid: 1hai
 name: 1hai
-description: 1hai is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'eHi Car Rental (一嗨租车), operated by Shanghai eHi Information Technology
+  Services Co., Ltd., is one of China''s leading car rental and mobility companies.
+  Founded in 2006 and headquartered in Shanghai, eHi offers self-drive car rentals,
+  chauffeured car service, used-car sales, and corporate and government mobility programs
+  across more than 500 cities nationwide, with cross-city return and airport pickup.
+  eHi is a portfolio company of Qiming Venture Partners, added to the API Evangelist
+  network as a company profile. The business operates consumer web and mobile (iOS,
+  Android, HarmonyOS) booking channels; no public developer or API platform was found
+  during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/1hai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,29 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://www.1hai.cn/favicon.ico
 tags:
 - Company
+- Car Rental
+- Mobility
+- Transportation
+- Travel
+- China
+- Automotive
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/1hai-domain-security.yml
 - type: Website
-  url: https://1hai.cn
+  url: https://www.1hai.cn/
+- type: Support
+  url: https://www.1hai.cn/Help/Index
+- type: SignUp
+  url: https://my.1hai.cn/
+- type: TermsOfService
+  url: https://www.1hai.cn/Help/HelpContent?menuId=2&isLimitRules=False
+- type: PrivacyPolicy
+  url: https://www.1hai.cn/Help/HelpContent?menuId=74&isLimitRules=False
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
